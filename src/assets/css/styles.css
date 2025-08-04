@@ -1,5 +1,15 @@
 
-
+@font-face {
+    font-family: "headingFont";
+    src: url('../fonts/MozillaHeadline-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'paraFont';
+    src: url('../fonts/RobotoSlab-VariableFont_wght.ttf');
+}
 
 /* Base Styles */
 :root {
@@ -29,13 +39,7 @@ body {
     color: var(--text-color);
     overflow-x: hidden;
 }
-@font-face {
-    font-family: "HeadingFont";
-    src: url('../fonts/MozillaHeadline-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: 400 900;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 .container {
     width: 100%;
@@ -56,6 +60,7 @@ h1, h2, h3 {
 
 p {
     margin-bottom: 15px;
+    font-family: 'paraFont',sans-serif;
 }
 
 a {
