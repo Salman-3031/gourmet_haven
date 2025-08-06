@@ -451,7 +451,9 @@ footer {
     .hero p {
         font-size: 1rem;
     }
-    
+    .social-links a{
+        margin-top: 5px;
+    }
     .section-title {
         font-size: 2rem;
     }
